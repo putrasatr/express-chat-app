@@ -9,7 +9,6 @@ const send = form.send;
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-
   if (name.value && message.value) {
     //disable while the message is being sent.
     send.classList.remove("bg-purple-700");
